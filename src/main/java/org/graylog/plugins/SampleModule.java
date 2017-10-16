@@ -9,7 +9,7 @@ import java.util.Set;
 /**
  * Extend the PluginModule abstract class here to add you plugin to the system.
  */
-public class SampleModule extends PluginModule {
+public class SendGridModule extends PluginModule {
     /**
      * Returns all configuration beans required by this plugin.
      *
