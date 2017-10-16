@@ -11,21 +11,21 @@ import java.util.Set;
 /**
  * Implement the PluginMetaData interface here.
  */
-public class SampleMetaData implements PluginMetaData {
+public class SendGridMetaData implements PluginMetaData {
     @Override
     public String getUniqueId() {
-        return "org.graylog.plugins.SamplePlugin";
+        return "org.graylog.plugins.SendGridPlugin";
     }
 
     @Override
     public String getName() {
-        return "Sample";
+        return "SendGrid";
     }
 
     @Override
     public String getAuthor() {
         // TODO Insert author name
-        return "Sample author";
+        return "hana.b.adler";
     }
 
     @Override
@@ -42,7 +42,7 @@ public class SampleMetaData implements PluginMetaData {
     @Override
     public String getDescription() {
         // TODO Insert correct plugin description
-        return "Description of Sample plugin";
+        return "Alert Via SendGrid";
     }
 
     @Override
