@@ -10,14 +10,14 @@ import java.util.Collections;
 /**
  * Implement the Plugin interface here.
  */
-public class SamplePlugin implements Plugin {
+public class SendGridPlugin implements Plugin {
     @Override
     public PluginMetaData metadata() {
-        return new SampleMetaData();
+        return new SendGridMetaData();
     }
 
     @Override
     public Collection<PluginModule> modules () {
-        return Collections.<PluginModule>singletonList(new SampleModule());
+        return Collections.<PluginModule>singletonList(new SendGridModule());
     }
 }
