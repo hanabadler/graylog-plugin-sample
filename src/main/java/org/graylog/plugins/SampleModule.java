@@ -40,5 +40,7 @@ public class SendGridModule extends PluginModule {
          *
          * addConfigBeans();
          */
+        addAlarmCallback(SendToMailUsingSendGridAlarmCallback.class);
+
     }
 }
