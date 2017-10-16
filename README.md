@@ -1,8 +1,8 @@
-# Sample Plugin for Graylog
+# SendGrid Plugin for Graylog
 
-[![Build Status](https://travis-ci.org/https://github.com/Graylog2/graylog-plugin-sample.svg?branch=master)](https://travis-ci.org/https://github.com/Graylog2/graylog-plugin-sample)
 
-__Use this paragraph to enter a description of your plugin.__
+
+Send graylog alerts to user mail via sendgrid api
 
 **Required Graylog version:** 2.0 and later
 
